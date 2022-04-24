@@ -1,0 +1,529 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F8F9FA;
+}
+
+/*   Navbar   */
+
+.navbar {
+	z-index: 3;
+}
+.navbar-brand {
+	font-size: 20px;
+	font-weight: 600;
+}
+.nav-link {
+	font-size: 14px;
+	font-weight: 500;
+	color: #414141;
+}
+.nav-link.active {
+	font-weight: 600;
+}
+
+/*Dropdown*/
+
+.dropdown .dropdown-menu{
+	margin-top: 10px;
+	background-color: #F8F9FA;
+}
+.dropdown .dropdown-menu li a{
+	display: flex;
+	align-items: center;
+	height: 40px;	
+	font-size: 14px;
+	color: #414141;
+}
+.dropdown-menu:focus{
+	transition: all 1s ease-in-out;
+}
+.dropdown-item {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*Button*/
+.button-daftar {
+	font-size: 12px;
+	font-weight: 600;
+	width: 80px;
+	height: 30px;
+	border: none;
+	border-radius: 90px;
+	background: #b667f1;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+.button-daftar:hover {
+	background: #ab42fc;
+}
+.button-daftar a{
+	text-decoration: none;
+	color: #fff;
+}
+.button-chart {
+	height: 30px;
+	width: 30px;
+	background: #b667f1;
+	border: none;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+}
+.button-chart:hover{
+	background: #ab42fc;
+}
+.button-chart a {
+	color: #fff;
+	font-size: 18px;
+}
+
+/*  Hero  */
+
+.hero {
+	height: 100vh;
+}
+.row .hero-title {
+	z-index: 1;
+}
+.row .hero-title h1 {
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+}
+.button-lg-primary {
+	font-size: 20px;
+	font-weight: 600;
+	width: 170px;
+	height: 55px;
+	border: none;
+	border-radius: 90px;
+	background: #b667f1;
+	color: #fff;
+}
+.row .hero-title p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+.carousel {
+	z-index: 0;
+	width: 100%;
+	height: 100vh;
+}
+.carousel-item {
+	height: 100vh;
+}
+
+/*.Profile Content*/
+
+section.profile {
+	height: 70vh;
+}
+.row .col-md-12 h1 {
+	font-size: 35px;
+	font-weight: 700;
+}
+.row .col-md-6 h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/* Card  */
+
+.head-card {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+.body-card {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+.card {
+	border: none;
+	width: 18rem;
+	background: none;
+}
+.card img {
+	border-radius: 90px;
+	width: 12rem;
+}
+.card h4 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.card {
+	font-size: 16px;
+}
+
+
+/*Content Kelas / Page Kursus / E-Learning */
+
+.kelas-content {
+	min-height: 100vh;
+	padding-top: 85px;
+}
+.body-content .row {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.content-kelas {
+	width: 265px;
+	min-height: 410px;
+	margin: 10px;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.content-kelas h5 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.content-kelas a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.content-kelas .button-ikutkelas {
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 100px;
+	background: #b667f1;
+	position: absolute;
+	bottom: 10px;
+}
+.content-kelas img {
+	padding: 0px;
+	border: none;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*Content Kelas DETAILS / Page Kursus / E-Learning */
+
+.detail-content{
+	min-height: 100vh;
+	padding-top: 85px;
+}
+.content-detail .row{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+	gap: 1rem;
+}
+.content-detail .detail{
+	padding: 15px 15px ;
+	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.content-detail img{
+	border-radius: 10px;
+}
+.content-detail h5{
+	margin-top: 15px;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: 600;
+}
+.content-detail p{
+	margin-top: 15px;
+	text-align: justify;
+	font-size: 16px;
+}
+.content-btn a {
+	display: flex;
+	justify-content: start;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.content-btn .ikutkelas-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background: #b667f1;
+}
+.content-btn .ikutkelas-btn i{
+	font-size: 20px;
+	margin: 0px 5px;
+	font-weight: 500;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*On Demand / Konsultasi*/ 
+
+.detail-ondemand{
+	min-height: 100vh;
+	padding-top: 65px;
+}
+.ondemand-detail .row{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+	gap: 2rem;
+}
+.ondemand-detail .body{
+	padding-top: 40px;
+}
+.ondemand-detail .body-content{
+	border: 2px solid #414141;
+	border-radius: 20px;
+	text-align: justify;
+	padding: 30px;
+	font-size: 14px;
+}
+.ondemand-detail .btn-contact a{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding-top: 10px;
+}
+.ondemand-detail .btn-contact button {
+	width: 50%;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background: #b667f1;
+}
+.ondemand-detail .detail{
+	height: 80vh;	
+	border-radius: 15px 0px 0px 15px;
+	position: relative;
+	padding: 0;
+}
+.ondemand-detail .detail img{
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 13px 0px 0px 13px;
+	z-index: -2;
+}
+.ondemand-detail .isi-demand{
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	display: flex;
+	align-items: end;
+	text-align: end;
+	padding: 10px ;
+	font-size: 12px;
+	font-weight: 500;
+	color: #fff;
+}
+.ondemand-detail .btn-demand button {
+	width: 75%;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background: #b667f1;
+	margin-bottom: 20px;
+}
+.head-content h3{
+	font-weight: 600;
+}
+
+/*Artikel*/
+
+.artikel-content {
+	min-height: 100vh;
+	padding-top: 85px;
+}
+.body-artikel .row {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.content-artikel {
+	width: 265px;
+	min-height: 410px;
+	margin: 10px;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.content-artikel h5 {
+	font-size: 16px;
+	font-weight: 600;
+}
+.content-artikel a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.content-artikel p{
+	font-size: 12px;
+	font-weight: 500;
+	text-align: justify;
+}
+.content-artikel .button-ikutkelas {
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 100px;
+	background: #b667f1;
+	position: absolute;
+	bottom: 20px;
+}
+.content-artikel img {
+	padding: 0px;
+	border: none;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*Pusat Standar*/
+
+.pusat-standar{
+	min-height: 100vh;
+	padding-top: 75px;
+}
+.standar-content{
+	display: flex;
+	gap: 2rem;
+}
+.pusat-standar .src-kategori input{
+	font-size: 14px;
+	width:190px ;
+	height: 35px;
+	text-align: center;
+	outline: none;
+	font-weight: 500;
+}
+.pusat-standar .src-judul input{
+	font-size: 14px;
+	font-weight: 500;
+	width: 400px;
+	height: 35px;
+	text-align: center;
+	outline: none;
+}
+.pusat-standar .src-judul a{
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: #414141;
+}
+.pusat-standar .src-judul{
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	gap: 1rem;
+}
+
+/*Cart Content*/
+
+.cart-content {
+	height: 100vh;
+	padding-top: 60px;
+}
+.tabel-cart {
+	background-color: #fff;
+	border-radius: 10px;
+}
+.tabel-head {
+	background-color: #e6e6e6;
+}
+.tabel-body th {
+	padding-left: 20px;
+	font-size: 14px;
+}
+.tabel-body td {
+	text-align: center;
+	font-size: 14px;
+}
+.tabel-body td i {
+	font-size: 18px;
+	color: black;
+}
+.checkout-cart .row {
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+.cart-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 40px;
+	background: #e6e6e6;
+	border-radius: 10px 10px 0px 0px;
+}
+.cart-header h6 {
+	font-size: 14px;
+	font-weight: 700;
+}
+.cart-body {
+	margin: 20px;
+	justify-content: center;
+}
+.cart-subtotal {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+.cart-total {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+.button-checkout {
+	margin: 20px;
+	height: 40px;
+	width: 80%;
+	border: none;
+	color: #fff;
+	background: #b667f1;
+	border-radius: 5px;
+}

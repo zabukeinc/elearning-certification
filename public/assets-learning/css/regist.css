@@ -1,0 +1,136 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #cf91ff;
+}
+.container {
+	max-width: 900px;
+	width: 100%;
+	height: 500px;
+	background: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	position: relative;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.cover-form {
+    width: 130%;
+	height: 500px;
+    position: relative;
+    background: #000000;
+}
+.fixed-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.cover-form .label-cover{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    padding: 0px 10px;
+    background: #ab42fc46;
+}
+.cover-form .label-cover a {
+    text-decoration: none;
+}
+.cover-form .label-cover a h3 {
+   font-size: 40px;
+   font-weight: 500;
+   color: #fff;
+}
+.cover-form .label-cover a p {
+   font-size: 16px;
+   font-weight: 500;
+   color: #fff;
+   margin-top: -7px;
+}
+.container form {
+	height: 100%;
+	width: 100%;
+	background: #fff;
+}
+.signup-form {
+	padding: 30px 50px;
+}
+.form-content .title {
+	font-size: 20px;
+	font-weight: 600;
+}
+.input-boxes label {
+	font-size: 12px;
+	font-weight: 500;
+}
+.input-boxes .input-box {
+	font-size: 14px;
+	margin: 10px 0;
+}
+.input-boxes .input-box input {
+	height: 35px;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 14px;
+	outline: none;
+	border: 2px solid #b567f193;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+}
+.input-boxes .input-box input:focus {
+	border-color: #ab42fc;
+}
+.input-boxes .button input {
+	background: #b667f1;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+	margin-top: 20px;
+}
+.input-boxes .button input:hover {
+	background: #ab42fc;
+}
+.text-forget a {
+	font-size: 12px;
+	text-decoration: none;
+    font-weight: 500;
+    color: #b667f1;
+}
+.signup-text,
+.login-text {
+	font-size: 12px;
+	text-align: center;
+	font-weight: 500;
+}
+.sosmed-label{
+    text-align: center;
+    font-size: 12px;    
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.login-text a {
+	font-size: 12px;
+	color: #b667f1;
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+}
+.icon-sosmed {
+	text-align: center;
+}
+.icon-sosmed a{
+	margin: 0 10px;
+}
+.icon-sosmed a img{
+	width: 30px;
+}
